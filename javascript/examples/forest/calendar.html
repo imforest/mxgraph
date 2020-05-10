@@ -4,6 +4,18 @@
 	<meta charset="UTF-8">
 	<title>practice js in https://forest71.tistory.com</title>
 
+	<style>
+		#calendar {
+			width: 160px;
+		}
+
+		#calendar > div {
+			width: 20px;
+			border: 1px solid #000;
+			display: inline-block;
+			text-align: center;
+		}
+	</style>
 	<script>
 		function makeTable() {
 			var calendar = document.getElementById("calendar");
@@ -20,7 +32,7 @@
 				}
 			}
 			calendar.appendChild(table);
-		}
+		};
 
 		function writeThisMonth() {
 			var sdate = new Date();
@@ -32,7 +44,7 @@
 				document.write(sdate + "<br/>");
 				sdate.setDate(sdate.getDate() + 1);
 			}
-		}
+		};
 
 		function makeThisMonth() {
 			var sdate = new Date();
@@ -55,7 +67,7 @@
 				tr.appendChild(td);
 				sdate.setDate(sdate.getDate() + 1);
 			}
-		}
+		};
 
 		function makeThisMonthBetter() {
 			var sdate = new Date();
@@ -101,8 +113,40 @@
 			}
 		};
 
+		function makeThisMonthCSS() {
+			var sdate = new Date(); 
+			var edate = new Date(); 
+			sdate.setDate(1);
+			edate.setMonth(edate.getMonth()+1);
+			edate.setDate(1);
+
+			var calendar = document.getElementById("calendar");
+			var preColumn = sdate.getDay();
+			for (var i = 0; i < preColumn; i++) {
+				var div = document.createElement( "div");
+				div.innerHTML = "<br/>";
+				calendar.appendChild(div);
+			}
+
+			while (sdate < edate ) {
+				var div = document.createElement( "div");
+				calendar.appendChild(div);
+				div.innerHTML = sdate.getDate();
+				sdate.setDate(sdate.getDate()+1);
+			}
+
+			var postColumn = sdate.getDay();
+			while (postColumn < 7) {
+				var div = document.createElement("div");
+				calendar.appendChild(div);
+				div.innerHTML = "<br/>";
+				calendar.appendChild(div);
+				postColumn++;
+			}
+		};
+
 		window.onload = function() {
-			makeThisMonthBetter();
+			makeThisMonthCSS();
 		};
 	</script>
 
