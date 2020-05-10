@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>practice js in https://forest71.tistory.com</title>
+
+	<script>
+		function makeTable() {
+			var calendar = document.getElementById("calendar");
+			var table = document.createElement("table");
+			table.border = "1px";
+			table.width = "100px";
+			for (var i = 0; i < 5; i++) {
+				var tr = document.createElement("tr");
+				table.appendChild(tr);
+				for (var j = 0; j < 7; j++) {
+					var td = document.createElement("td");
+					td.innerHTML = "<br/>";
+					tr.appendChild(td);
+				}
+			}
+			calendar.appendChild(table);
+		}
+
+		function writeThisMonth() {
+			var sdate = new Date();
+			var edate = new Date();
+			sdate.setDate(1);
+			edate.setMonth(sdate.getMonth() + 1);
+			edate.setDate(1);
+			while (sdate < edate) {
+				document.write(sdate + "<br/>");
+				sdate.setDate(sdate.getDate() + 1);
+			}
+		}
+
+		function makeThisMonth() {
+			var sdate = new Date();
+			var edate = new Date();
+			sdate.setDate(1);
+			edate.setMonth(edate.getMonth() + 1);
+			edate.setDate(1);
+
+			var calendar = document.getElementById("calendar");
+			var table = document.createElement("table");
+			calendar.appendChild(table);
+			table.border = "1px";
+			table.width = "100px";
+			var tr = document.createElement("tr");
+			table.appendChild(tr);
+
+			while (sdate < edate) {
+				var td = document.createElement("td");
+				td.innerHTML = sdate.getDate();
+				tr.appendChild(td);
+				sdate.setDate(sdate.getDate() + 1);
+			}
+		}
+
+		function makeThisMonthBetter() {
+			var sdate = new Date();
+			var edate = new Date();
+			sdate.setDate(1);
+			edate.setMonth(edate.getMonth() + 1);
+			edate.setDate(1);
+
+			var calendar = document.getElementById("calendar");
+			var table = document.createElement("table");
+			calendar.appendChild(table);
+			table.border = "1px";
+			var tr = document.createElement("tr");
+			table.appendChild(tr);
+
+			var preColumn = sdate.getDay();
+			for (var i = 0; i < preColumn; i++) {
+				var td = document.createElement("td");
+				td.innerHTML = "<br/>";
+				td.width = "20px";
+				tr.appendChild(td);
+			}
+
+			while (sdate < edate) {
+				var td = document.createElement("td");
+				td.innerHTML = sdate.getDate();
+				td.width = "20px";
+				if (sdate.getDay() === 0) {
+					var tr = document.createElement("tr");
+					table.appendChild(tr);
+				}
+				tr.appendChild(td);
+				sdate.setDate(sdate.getDate() + 1);
+			}
+
+			var postColumn = sdate.getDay();
+			while (postColumn < 7) {
+				var td = document.createElement("td");
+				td.innerHTML = "<br/>";
+				td.width = "20px";
+				tr.appendChild(td);
+				postColumn++;
+			}
+		};
+
+		window.onload = function() {
+			makeThisMonthBetter();
+		};
+	</script>
+
+</head>
+<body>
+	<div id="calendar"></div>
+</body>
+</html>
