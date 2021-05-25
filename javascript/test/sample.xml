@@ -1,0 +1,446 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="52" value="메인(보관)탱크" style="group" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="60" y="380" width="920" height="640" as="geometry" />
+    </mxCell>
+    <mxCell id="7" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory1&quot;&gt;factory1&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory1.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="52" vertex="1" connectable="0">
+      <mxGeometry x="20" y="50" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="8" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="7" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="9" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="7" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="10" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="7" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="11" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="7" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="12" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory2&quot;&gt;factory2&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory2.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="52" vertex="1" connectable="0">
+      <mxGeometry x="330" y="50" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="13" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="12" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="14" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="12" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="15" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="12" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="16" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="12" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="17" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory3&quot;&gt;factory3&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory3.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="52" vertex="1" connectable="0">
+      <mxGeometry x="640" y="50" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="18" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="17" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="19" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="17" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="20" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="17" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="21" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="17" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="37" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory1&quot;&gt;factory1&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory1.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="52" vertex="1" connectable="0">
+      <mxGeometry x="20" y="360" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="38" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="37" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="39" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="37" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="40" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="37" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="41" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="37" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="42" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory2&quot;&gt;factory2&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory2.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="52" vertex="1" connectable="0">
+      <mxGeometry x="330" y="360" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="43" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="42" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="44" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="42" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="45" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="42" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="46" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="42" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="47" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory3&quot;&gt;factory3&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory3.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="52" vertex="1" connectable="0">
+      <mxGeometry x="640" y="360" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="48" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="47" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="49" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="47" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="50" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="47" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="51" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="47" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="136" value="" parent="52" source="10" target="13" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="137" value="" parent="52" source="15" target="19" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="138" value="" parent="52" source="40" target="44" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="139" value="" parent="52" source="45" target="48" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="133" value="혼합/검사 탱크" style="group" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="1160" y="170" width="630" height="1490" as="geometry" />
+    </mxCell>
+    <mxCell id="53" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory4&quot;&gt;factory4&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory4.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="133" vertex="1" connectable="0">
+      <mxGeometry x="20" y="50" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="54" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="53" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="55" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="53" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="56" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="53" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="57" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="53" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="58" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory5&quot;&gt;factory5&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory5.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="133" vertex="1" connectable="0">
+      <mxGeometry x="330" y="50" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="59" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="58" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="60" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="58" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="61" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="58" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="62" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="58" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="63" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory6&quot;&gt;factory6&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory6.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="133" vertex="1" connectable="0">
+      <mxGeometry x="20" y="340" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="64" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="63" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="65" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="63" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="66" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="63" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="67" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="63" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="68" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory7&quot;&gt;factory7&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory7.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="133" vertex="1" connectable="0">
+      <mxGeometry x="340" y="340" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="69" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="68" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="70" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="68" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="71" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="68" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="72" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="68" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="73" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory9&quot;&gt;factory9&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory9.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="133" vertex="1" connectable="0">
+      <mxGeometry x="340" y="630" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="74" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="73" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="75" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="73" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="76" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="73" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="77" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="73" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="78" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory10&quot;&gt;factory10&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory10.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="133" vertex="1" connectable="0">
+      <mxGeometry x="30" y="920" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="79" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="78" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="80" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="78" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="81" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="78" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="82" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="78" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="83" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory11&quot;&gt;factory11&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory11.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="133" vertex="1" connectable="0">
+      <mxGeometry x="350" y="920" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="84" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="83" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="85" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="83" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="86" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="83" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="87" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="83" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="88" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory8&quot;&gt;factory8&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory8.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="133" vertex="1" connectable="0">
+      <mxGeometry x="30" y="630" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="89" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="88" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="90" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="88" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="91" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="88" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="92" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="88" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="123" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory10&quot;&gt;factory10&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory10.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="133" vertex="1" connectable="0">
+      <mxGeometry x="30" y="1210" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="124" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="123" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="125" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="123" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="126" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="123" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="127" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="123" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="128" value="&lt;br&gt;&lt;h1 style=&quot;margin:0px;&quot; name=&quot;factory11&quot;&gt;factory11&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;images/factory/factory11.jpg&quot; width=&quot;180&quot; height=&quot;180&quot; style=&quot;border-radius: 50%;&quot;&gt;&lt;br&gt;&lt;h1 name=&quot;temp&quot;&gt;123456&lt;/h1&gt;" parent="133" vertex="1" connectable="0">
+      <mxGeometry x="350" y="1210" width="260" height="260" as="geometry">
+        <mxRectangle width="120" height="40" as="alternateBounds" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="129" value="Trigger" style="port;image=images/overlays/flash.png;align=right;imageAlign=right;spacingRight=18" parent="128" vertex="1">
+      <mxGeometry y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="130" value="Input" style="port;image=images/overlays/check.png;align=right;imageAlign=right;spacingRight=18" parent="128" vertex="1">
+      <mxGeometry y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-6" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="131" value="Error" style="port;image=images/overlays/error.png;spacingLeft=18" parent="128" vertex="1">
+      <mxGeometry x="1" y="0.25" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-8" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="132" value="Result" style="port;image=images/overlays/information.png;spacingLeft=18" parent="128" vertex="1">
+      <mxGeometry x="1" y="0.75" width="16" height="16" relative="1" as="geometry">
+        <mxPoint x="-8" y="-4" as="offset" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="140" value="" parent="133" source="56" target="59" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="142" value="" parent="133" source="81" target="85" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="143" value="" parent="133" source="126" target="129" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="144" value="" parent="133" source="57" target="69" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="145" value="" parent="133" source="67" target="74" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="134" value="" parent="1" source="20" target="55" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="135" value="" parent="1" source="50" target="79" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
+
